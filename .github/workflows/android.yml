@@ -25,4 +25,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew aR
     - name: find file
-      run: find . -nmae apk
+      run: find . --nmae apk
+       tree
+       ls *
